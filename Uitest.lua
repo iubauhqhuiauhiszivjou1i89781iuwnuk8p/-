@@ -34,7 +34,7 @@ end
 end
 end
 end
-_G.Color = Color3.fromRGB(168, 237, 7)
+_G.Color = Color3.fromRGB(245, 10, 10)
 function CircleClick(Button, X, Y)
 coroutine.resume(
   coroutine.create(
@@ -213,7 +213,7 @@ Title.BackgroundTransparency = 1.000
 Title.Position = UDim2.new(0.05, 0, 0.04, 0)
 Title.Size = UDim2.new(0, 483, 0, 31)
 Title.Font = Enum.Font.GothamBold
-Title.Text = "Matsune".."<font color='rgb(127, 252, 3)'> Hub</font>".." | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+Title.Text = "Devil Ugly ".."<font color='rgb(245, 10, 10)'> </font>".." | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 Title.RichText = true;
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 15.000
